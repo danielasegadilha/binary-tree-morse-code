@@ -1,4 +1,5 @@
-# 🌳 Morse Code Binary Tree 🌳
+# 🌳 Morse Code Binary Tree 
+![Python](https://img.shields.io/badge/Python-3.x-success)
 
 ## 📚 Overview
 
