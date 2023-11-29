@@ -35,15 +35,12 @@ def getMessage(node, code, letter):
         getMessage(node.right, code[1:], letter)
     elif code[0] == ".":
         getMessage(node.left, code[1:], letter)
-    elif code[0] == "*":
-        letter.insert(0, " ")
-        return True
     else:
         return f"Not a valid code"
 
 
 # Let's initialise our binary tree:
-tree = Node("START")  # The root node of our binary tree
+tree = Node(" ")  # The root node of our binary tree
 
 # 1st Level
 tree.left = Node("E")
@@ -103,7 +100,7 @@ for character in ascii_message:
 print(morseCode)
 
 morseCode = input("Enter a morse code: ")
-codes = list(map(lambda x: '*' if x == '' else x, morseCode.strip().split(" ")))
+codes = morseCode.strip().split(" ")
 decipher_message = ""
 
 for code in codes:
