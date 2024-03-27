@@ -1,7 +1,7 @@
 # 🌳 Binary Tree - Morse Code
 ![Python](https://img.shields.io/badge/Python-3.x-success)
 
-## 📚 Overview
+## Overview
 
 This Python program uses a binary tree to encode and decode messages in Morse code. The binary tree structure is designed to efficiently map characters to their Morse code representations.
 
@@ -76,7 +76,7 @@ Enter a message, e.g., "SOS," and get the output in Morse code.
    Enter a morse code:
 Enter Morse code, e.g., "... --- ...," and get the decoded message.
 
-## 📚 Libraries Used
+## Libraries Used
 The program uses a library to draw the binary tree on the console.
 
 ### Tree Drawing Library
